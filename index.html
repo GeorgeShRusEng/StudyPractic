@@ -1,47 +1,178 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="rus">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhyNot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Landing Page Design</title>
 </head>
 
 <body>
-    <section>
-        <input type="checkbox" id="check">
-        <header>
-            <h2><a href="#" class="logo">Logo</a></h2>
-            <div class="navigation">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Info</a>
-                <a href="#">Services</a>
-                <a href="#">Contacts</a>
-            </div>
-            <label for="check">
-                <i class="fas fa-bars menu-btn"></i>
-                <i class="fas fa-times close-btn"></i>
-            </label>
-        </header>
-        <div class="content">
-            <div class="info">
-                <h2>Like Nature <br><span>Be Creative!</span></h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias possimus error enim recusandae
-                    molestias reprehenderit animi inventore, consectetur aliquid, a eos culpa dolores atque veniam quasi
-                    repellendus aut eligendi laboriosam?</p>
-                <a href="#" class="info-btn">More Info</a>
-            </div>
-        </div>
-        <div class="media-icons">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <section class="logo">
+        <div class="container pt-5 text-center">
+            <img src="img/logo.png" alt="logo">
         </div>
     </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-wight">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">1 Сентября</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Букеты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Пионовидные розы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Гортензии</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Букеты в коробках</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Открытки</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="bigpicture pt-4 pb-3">
+        <img src="img/first-image.jpg" alt="img" class="w-100">
+    </section>
+    <section class="catalog__panel pt-5 pb-5">
+        <div class="catalog__grid d-grid">
+            <div class="grid-1 gridhover">
+                <img src="img/image 2.jpg" alt="img">
+            </div>
+            <div class="grid-2 gridhover">
+                <img src="img/image 3.jpg" alt="img">
+            </div>
+            <div class="grid-3 gridhover">
+                <img src="img/image 5.jpg" alt="img">
+            </div>
+            <div class="grid-4 gridhover">
+                <img src="img/image 7.jpg" alt="img">
+            </div>
+            <div class="grid-5 gridhover">
+                <img src="img/image 6.jpg" alt="img">
+            </div>
+            <div class="grid-6 gridhover">
+                <img src="img/image 4.jpg" alt="img">
+            </div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="instagram pt-5 pb-5">
+        <div class="container">
+            <h1>Instagram</h1>
+            <div class="instagram__flex d-flex pt-3">
+                <div class="flex-1 mt-4 gridhover">
+                    <img src="img/inst1.jpg" alt="img">
+                </div>
+                <div class="flex-2 mt-4 gridhover">
+                    <img src="img/inst2.jpg" alt="img">
+                </div>
+                <div class="flex-3 mt-4 gridhover">
+                    <img src="img/inst3.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="footer pt-5 pb-5">
+        <div class="container d-flex flex-wrap">
+            <div class="footer-1">
+                <h5>Магазин</h5>
+                <p>
+                    <a href="">Авторские букеты</a>
+                </p>
+                <p>
+                    <a href="">Букеты в коробках</a>
+                </p>
+                <p>
+                    <a href="">Свадебная флористика</a>
+                </p>
+                <p>
+                    <a href="">Воздушные шары</a>
+                </p>
+                <p>
+                    <a href="">Декор</a>
+                </p>
+            </div>
+            <div class="footer-2">
+                <h5>Инфо</h5>
+                <p>
+                    <a href="">О нас</a>
+                </p>
+                <p>
+                    <a href="">Доставка и оплата</a>
+                </p>
+                <p>
+                    <a href="">Акции</a>
+                </p>
+                <p>
+                    <a href="">Вакансии</a>
+                </p>
+                <p>
+                    <a href="">Политика конфиденциальности</a>
+                </p>
+            </div>
+            <div class="footer-3">
+                <h5>Контакты</h5>
+                <p>
+                    <a href="">+7 (996) 396 90 82</a>
+                </p>
+                <p>
+                    <a href="">Доставка с 10 до 21:00</a>
+                </p>
+                <p>
+                    <a href="">Омск, Лермонтова 20 <br>(возле DFS и Карбонары)</a>
+                </p>
+                <p>
+                    <a href="">hello@whynotflowers.ru</a>
+                </p>
+            </div>
+            <div class="footer-4">
+                <span>
+                    <img src="img/visa.png" alt="img">
+                </span>
+                <span>
+                    <img src="img/mastercard.png" alt="img">
+                </span>
+                <span>
+                    <img src="img/maestro.png" alt="img">
+                </span>
+                <span>
+                    <img src="img/mir.png" alt="img">
+                </span>
+                <span>
+                    <img src="img/maestro2.png" alt="img">
+                </span>
+            </div>
+        </div>
+        </div>
+    </section>
+    <hr class="line">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
